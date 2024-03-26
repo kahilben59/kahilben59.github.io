@@ -1,0 +1,205 @@
+body{
+    margin:0%;
+}
+
+div.site{
+    background-color: #800000;
+    width:auto;
+    height: 600px;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 150px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+.savoir{
+    color: white;
+    text-align: center;
+    font-family:system-ui;
+    
+
+}
+
+.sous-titre{
+    font-family: system-ui;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.box{
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+}
+
+div>button{
+    position: absolute;
+    left: 45%;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+div.box>p{
+    font-family: system-ui;
+    text-align: center;
+    font-size: 300%;
+}
+div.box>img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.box>textes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.titres{
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
+textes{
+    color: black;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.soustitre{
+    color: #878787;
+    font-size: 12px;
+}
+
+.pourquoi{
+    display: grid;
+    margin-top: 100px;
+    font-family: system-ui;
+    grid-template-columns: 25% 25% 80px 25% 25%;
+}
+
+div.pourquoi>p{
+    display: grid;
+    font-family: system-ui;
+    grid-column-start: 2;
+}
+
+div.pourquoi>img{
+    grid-column-start: 4;
+    align-self: center;
+    transform: translate(0, -30%);
+}
+
+#titre{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.blog{
+    margin-top: 10%;
+}
+
+div.blog>p{
+    text-align: center;
+    font-size: 300%;
+}
+
+div.blog>div{
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns:30% 20px 30% 20px 30%;
+    font-family: sans-serif;
+}
+
+div.blog>div>div>a>img{
+    box-shadow: rgba(0, 0, 0, 0.46) 0px 5px 50px;
+    transition : transform .5s;
+}
+
+div.blog>div>div>a>img:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 50px;
+}
+
+#transvert{
+    grid-column-start: 1;
+    
+}
+
+#voitureelec{
+    grid-column-start: 3;
+}
+
+#covoit{
+    grid-column-start: 5;
+}
+
+div.contact{
+    position: absolute;
+    top:2330px;
+    left:2.5%;
+    width: 95%;
+    height: 370px;
+    background-color: hsl(0, 100%, 24%);
+    background-image: url(../image/mario2.jpg);
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
+    font-family: system-ui;
+    color: white;
+}
+
+#email{
+    grid-row-start: 3;
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 35px 25px ;
+    align-items: center;
+}
+
+#telephone{
+    grid-row-start: 5;
+    display: grid;
+    grid-template-columns: 110px auto;
+    grid-template-rows: 35px 25px ;
+    align-items: center;
+}
+
+div.contactgrid{
+    margin-left: 70%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-rows: 70px 20px 70px 20px 70px;
+
+}
+.i{
+    width: 175px;
+    transform: translate(-50%);
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type : none;
+}
