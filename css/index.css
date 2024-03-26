@@ -33,7 +33,7 @@ div.site{
 .sous-titre{
     font-family: system-ui;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-right : 50px;
     margin-left : 50px;
     line-height : 40px;
@@ -46,7 +46,7 @@ div.box{
     left: 50%;
     transform: translate(-50%);
     width: 95%;
-    height: 900px;
+    height: 1000px;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
