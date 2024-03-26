@@ -24,7 +24,6 @@ div.site{
 }
 .savoir{
     color: white;
-    text-align: center;
     font-family:system-ui;
     
 
@@ -32,7 +31,6 @@ div.site{
 
 .sous-titre{
     font-family: system-ui;
-    text-align: center;
     font-size: 25px;
 }
 
@@ -57,7 +55,6 @@ div>button{
 
 div.box>p{
     font-family: system-ui;
-    text-align: center;
     font-size: 300%;
 }
 div.box>img{
@@ -65,7 +62,7 @@ div.box>img{
     justify-content: space-evenly;
 }
 
-div.box>textes{
+.sous-titre{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -73,6 +70,18 @@ div.box>textes{
     font-size: 15px;
     text-align: center;
     font-family: system-ui;
+}
+
+.texte{
+    justify-content: space-evenly;
+    padding: 1%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: system-ui;
+    background-color: rgba(255, 0, 0, 0.15)
 }
 
 .titres{
@@ -92,56 +101,10 @@ textes{
     font-size: 12px;
 }
 
-.pourquoi{
-    display: grid;
-    margin-top: 100px;
-    font-family: system-ui;
-    grid-template-columns: 25% 25% 80px 25% 25%;
-}
-
-div.pourquoi>p{
-    display: grid;
-    font-family: system-ui;
-    grid-column-start: 2;
-}
-
-div.pourquoi>img{
-    grid-column-start: 4;
-    align-self: center;
-    transform: translate(0, -30%);
-}
 
 #titre{
     font-size: 25px;
     font-weight: bold;
-}
-
-div.blog{
-    margin-top: 10%;
-}
-
-div.blog>p{
-    text-align: center;
-    font-size: 300%;
-}
-
-div.blog>div{
-    margin-left: 10%;
-    text-align: left;
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns:30% 20px 30% 20px 30%;
-    font-family: sans-serif;
-}
-
-div.blog>div>div>a>img{
-    box-shadow: rgba(0, 0, 0, 0.46) 0px 5px 50px;
-    transition : transform .5s;
-}
-
-div.blog>div>div>a>img:hover{
-    transform: scale(1.02);
-    box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 50px;
 }
 
 #transvert{
@@ -157,35 +120,6 @@ div.blog>div>div>a>img:hover{
     grid-column-start: 5;
 }
 
-div.contact{
-    position: absolute;
-    top:2330px;
-    left:2.5%;
-    width: 95%;
-    height: 370px;
-    background-color: hsl(0, 100%, 24%);
-    background-image: url(../image/mario2.jpg);
-    background-repeat: no-repeat;
-    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
-    font-family: system-ui;
-    color: white;
-}
-
-#email{
-    grid-row-start: 3;
-    display: grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 35px 25px ;
-    align-items: center;
-}
-
-#telephone{
-    grid-row-start: 5;
-    display: grid;
-    grid-template-columns: 110px auto;
-    grid-template-rows: 35px 25px ;
-    align-items: center;
-}
 
 div.contactgrid{
     margin-left: 70%;
@@ -195,10 +129,10 @@ div.contactgrid{
 
 }
 .i{
+    display: block;
+    margin: auto;
     width: 150px;
-    transform: translate(-50%);
     border-radius: 5px;
-    margin-left: 35%;
 }
 
 ul{
