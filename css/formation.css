@@ -139,6 +139,11 @@ div.blog>div>div>a>img{
     transition : transform .5s;
 }
 
+.i{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.blog>div>div>a>img:hover{
     transform: scale(1.02);
     box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 50px;
