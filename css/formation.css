@@ -5,7 +5,7 @@ body{
 div.site{
     background-color: #800000;
     width:auto;
-    height: 600px;
+    height: 750px;
 }
 
 .titre{
@@ -42,7 +42,7 @@ div.box{
     left: 50%;
     transform: translate(-50%);
     width: 95%;
-    height: 1200px;
+    height: 1300px;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 50px;
